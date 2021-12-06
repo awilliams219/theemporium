@@ -28,13 +28,19 @@ Examples:
 
 **Good:**
 > Fix bug where inventories would randomly get wiped
+
 > Add langauge variant options to inventory items
+
 > 23: Fix glitch allowing item duplication when the item name ends with an 'e'
+
 
 **Bad:**
 > various bugfixes
+
 > fix that annoying duplication bug
+
 > update docs
+
 > (( no message at all ))
 
 
@@ -104,15 +110,25 @@ commit message guidelines above.
 
 Good Commit Message Examples:
 > Fix vague phrasing regarding currency management
+
+
 > 15: Update server standup documentation to reflect new workflow
+
 > Fix several spelling errors in inventory documentation
+
 > Add missing comma in store management documentation
+
 > Fix markdown formatting in currency management documentation
+
+
 
 Bad:
 > spelling fixes
+
 > reformat docs
+
 > missing comma
+
 > (( no message at all ))
 
 
