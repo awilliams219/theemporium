@@ -49,23 +49,31 @@ Examples:
 This project includes a comprehensive .editorconfig file. Please ensure that your IDE is configured to enforce it. If youre IDE does not support .editorconfig
 files, please review the file yourself and adhere to the coding styles described therein.
 
-Keep your code [Clean](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/B08X8ZXT15) practices. 
-Keep your code [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
-Keep your code [SOLID](https://en.wikipedia.org/wiki/SOLID).
+* Keep your code [Clean](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/B08X8ZXT15). 
 
-Code should be self-documenting. Comments should not be used except to explain WHY a function is written a certain way. Do not explain HOW a function works.
-Function and variable names should be descriptive of what they do / contain.
+* Keep your code [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
-Use ES6 classes instead of plain objects whenever possible. 
-Use Async/Await when possible. 
-Wrap code than can fail in try/catch.
+* Keep your code [SOLID](https://en.wikipedia.org/wiki/SOLID).
 
-Console.log should ONLY be used for console messaging. Do not use it for debugging messaging unless the user has specified debug mode on the command line.
-Console.error and Console.warn should be used for console error messages and warnings respectively.
-Every operation should return a response to the user that triggered it, even if the response is an error message. No operation should EVER go unanswered.
-Failed operations should be logged to the console using Console.error.
+* Code should be self-documenting. Comments should not be used except to explain WHY a function is written a certain way. Do not explain HOW a function works.
 
-Do not require manual input from the console. This project will normally run headless, so there will be no user to enter the data. Any input required should be either provided on the command line or via a discord command.
+* Function and variable names should be descriptive of what they do / contain.
+
+* Use ES6 classes instead of plain objects whenever possible. 
+
+* Use Async/Await rather than .then, .catch, .finally when possible. 
+
+* Wrap code than can fail in try/catch.
+
+* Console.log should ONLY be used for console messaging. Do not use it for debugging messaging unless the user has specified debug mode on the command line.
+
+* Console.error and Console.warn should be used for console error messages and warnings respectively.
+
+* Every operation should return a response to the user that triggered it, even if the response is an error message. No operation should EVER go unanswered.
+
+* Failed operations should be logged to the console using Console.error.
+
+* Do not require manual input from the console. This project will normally run headless, so there will be no user to enter the data. Any input required should be either provided on the command line or via a discord command.
 
 Good:
 ```
@@ -105,12 +113,11 @@ Example:
 
 ## Documentation Updates
 
-You are welcome to document this project as you see fit. Minor grammatical, capitalization, spelling, and formatting changes are accepted, but be sure to adhere to the 
-commit message guidelines above.
+You are welcome to document this project as you see fit. Minor grammatical, capitalization, spelling, and formatting changes are accepted, but be sure to adhere to the commit message guidelines above.
 
 Good Commit Message Examples:
-> Fix vague phrasing regarding currency management
 
+> Fix vague phrasing regarding currency management
 
 > 15: Update server standup documentation to reflect new workflow
 
@@ -123,6 +130,7 @@ Good Commit Message Examples:
 
 
 Bad:
+
 > spelling fixes
 
 > reformat docs
