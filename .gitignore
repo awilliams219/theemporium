@@ -105,3 +105,6 @@ dist
 
 # Jetbrains IDEs
 .idea
+
+#Environment Files
+.env
