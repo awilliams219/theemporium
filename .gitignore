@@ -107,4 +107,4 @@ dist
 .idea
 
 #Environment Files
-.env
+**/.env
